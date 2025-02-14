@@ -1,0 +1,84 @@
+body{
+    font-size:25px;
+    color: white;
+}
+
+html{
+    background-color: black;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+}
+
+.fa-brands.fa-discord {
+    display: inline-block;
+    margin: 5px auto;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(0%);
+}
+
+.fa-brands.fa-discord:hover {
+    transition: ease-in-out 0.15s;
+    color: #5539cc;
+}
+
+body {
+    text-align: center;
+}
+
+.fa-brands.fa-twitter {
+    display: inline-block;
+    margin: 5px auto;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-115%);
+}
+
+.fa-brands.fa-twitter:hover {
+    transition: ease-in-out 0.15s;
+    color: #1DA1F2;
+}
+
+
+.error {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+
+
+.working {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    overflow: hidden; /* Prevents scrolling */
+    margin: 0; /* Removes any margin */
+    position: relative; /* Ensures it stays within the viewport */
+    user-select: none; /* Prevents text selection */
+    -webkit-user-drag: none; /* Prevents dragging on webkit browsers */
+}
+
+body {
+    overflow: hidden; /* Prevents scrolling on the entire page */
+    user-select: none; /* Prevents text selection */
+    -webkit-user-drag: none; /* Prevents dragging on webkit browsers */
+}
